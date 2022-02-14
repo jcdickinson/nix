@@ -23,4 +23,8 @@
   networking.interfaces.wlp5s0.useDHCP = true;
 
   programs.steam.enable = true;
+
+  systemd.tmpfiles.rules = [
+    "L+ /run/gdm/.config/monitors.xml - - - - ${./jono-desktop-monitors.xml}"
+  ];
 }
