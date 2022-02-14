@@ -17,4 +17,8 @@
   lutris
   wine
   winetricks
+  gcc
+  signal-desktop
+  pkg-config
+  openssl_3_0
 ]
