@@ -33,5 +33,19 @@
         }
       ];
     };
+    nixosConfigurations.jono-laptop = nixpkgs.lib.nixosSystem {
+      system = "x86_64-linux";
+      specialArgs = { inherit inputs pkgs; };
+      modules = [
+        ./systems/jono-laptop.nix
+        ./users/jono.nix
+        home-manager.nixosModules.home-manager
+        {
+          home-manager.useGlobalPkgs = true;
+          home-manager.useUserPackages = true;
+          home-manager.users.jono = import ./users/jono/home.nix { jonopkgs = jonopkgs; };
+        }
+      ];
+    };
   };
 }
