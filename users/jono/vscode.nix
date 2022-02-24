@@ -14,9 +14,9 @@
       sha256 = "944dadf8a51f0a50ffc63a6f7b14c9944afb2ae7e8fb6d8350cf49bb84e2b29d";
   }];
   userSettings = {
-    "editor.fontFamily" = "'SpaceMono Nerd Font Mono', monospace";
+    "editor.fontFamily" = "'UbuntuMono Nerd Font', monospace";
     "editor.fontLigatures" = true;
-    "editor.fontSize" = 15;
+    "editor.fontSize" = 18;
     "terminal.integrated.profiles.linux" = {
       "fish" = {
         "path" = "fish";
@@ -24,5 +24,6 @@
     };
     "terminal.integrated.defaultProfile.linux" = "fish";
     "update.mode" = "manual";
+    "window.titleBarStyle" = "custom";
   };
 }

@@ -3,6 +3,9 @@
   enable = true;
   shellInit = ''
     set fish_greeting
+  '';
+  interactiveShellInit = ''
+    starship init fish | source
 
     function nixos-update
       sudo nix flake update /etc/nixos
@@ -19,9 +22,10 @@
       git -C /etc/nixos commit $argv
       sudo chmod -R 0755 /etc/nixos/.git
     end
-  '';
-  interactiveShellInit = ''
-    starship init fish | source
-    alias code codium
+
+    function code
+      set rp (realpath $argv[1])
+      xdg-open vscode://file$rp
+    end
   '';
 }

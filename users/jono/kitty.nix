@@ -6,7 +6,7 @@
         shell = "${pkgs.fish.out}/bin/fish -i -l -C 'cd $HOME'";
         window_padding_width = "0 10";
         
-        font_family = "SpaceMono Nerd Font Mono";
+        font_family = "UbuntuMono Nerd Font";
         font_size = "13.0";
 
         background="#0e1419";

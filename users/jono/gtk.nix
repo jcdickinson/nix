@@ -28,5 +28,5 @@ in
   };
   
   gtk3.extraConfig = extraConfig;
-  #gtk4.extraConfig = extraConfig;
+  # gtk4.extraConfig = extraConfig;
 }
