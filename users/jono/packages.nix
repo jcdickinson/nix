@@ -13,7 +13,7 @@
   wget
   cabextract
   rustup
-  firefox
+  firefox-wayland
   lutris
   wine
   winetricks

@@ -111,7 +111,6 @@
 
   environment.systemPackages = with pkgs; [
     gtk4
-    firefox
     git
   ];
 
