@@ -21,4 +21,7 @@
   signal-desktop
   pkg-config
   openssl_3_0
+  dhall
+  dhall-json
+  dhall-lsp-server
 ]

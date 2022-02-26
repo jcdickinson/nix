@@ -26,6 +26,8 @@ in
 
   home.packages = import ./packages.nix next;
 
+  home.file = import ./files.nix next;
+
   home.stateVersion = "21.11";
   programs.home-manager.enable = true;
 }

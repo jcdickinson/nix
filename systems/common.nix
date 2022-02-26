@@ -8,6 +8,13 @@
     '';
   };
 
+  virtualisation = {
+    podman = {
+      enable = true;
+      dockerCompat = true;
+    };
+  };
+
   boot = {
     plymouth.enable = true;
     loader = {

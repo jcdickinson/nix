@@ -16,6 +16,12 @@
       sudo nixos-rebuild switch
     end
 
+    function nixos-add
+      sudo chmod -R 0777 /etc/nixos/.git
+      git -C /etc/nixos add -i
+      sudo chmod -R 0755 /etc/nixos/.git
+    end
+
     function nixos-commit
       sudo chmod -R 0777 /etc/nixos/.git
       git -C /etc/nixos add -i
