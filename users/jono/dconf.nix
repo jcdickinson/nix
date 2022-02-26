@@ -2,7 +2,7 @@
 {
   "org/gnome/desktop/background" = {
     picture-options="zoom";
-    picture-uri="file:///run/current-system/sw/share/backgrounds/gnome/LightBulb.jpg";
+    picture-uri="${./files/pexels-stephane-hurbe-4198029.jpg}";
     primary-color="#ffffff";
     secondary-color="#000000";
   };
@@ -24,7 +24,7 @@
 
   "org/gnome/desktop/screensaver" = {
     picture-options="zoom";
-    picture-uri="file:///run/current-system/sw/share/backgrounds/gnome/LightBulb.jpg";
+    picture-uri="${./files/pexels-stephane-hurbe-4198029.jpg}";
     primary-color="#ffffff";
     secondary-color="#000000";
   };
