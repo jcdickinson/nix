@@ -13,7 +13,6 @@ in
     vscode = import ./vscode.nix next;
     git = import ./git.nix next;
     fish = import ./fish.nix next;
-    kitty = import ./kitty.nix next;
   };
   
   gtk = import ./gtk.nix next;

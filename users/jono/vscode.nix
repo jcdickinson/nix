@@ -23,5 +23,6 @@
     "git.suggestSmartCommit" = false;
     "git.autofetch" = true;
     "git.autoStash" = true;
+    "lldb.showDisassembly" = "never";
   };
 }

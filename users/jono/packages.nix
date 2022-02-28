@@ -24,4 +24,5 @@
   dhall
   dhall-json
   dhall-lsp-server
+  mono
 ]
