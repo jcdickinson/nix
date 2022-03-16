@@ -16,7 +16,7 @@
   };
 
   boot = {
-    plymouth.enable = true;
+    # plymouth.enable = true;
     loader = {
         timeout = 1;
         efi = {

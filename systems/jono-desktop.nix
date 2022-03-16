@@ -18,6 +18,8 @@
     }
   '';
 
+  boot.kernelPackages = pkgs.linuxPackages_zen;
+
   networking.hostName = "jono-desktop";
   networking.interfaces.enp6s0.useDHCP = true;
   networking.interfaces.wlp5s0.useDHCP = true;

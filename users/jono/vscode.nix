@@ -18,7 +18,7 @@
     };
     "terminal.integrated.defaultProfile.linux" = "fish";
     "update.mode" = "manual";
-    "window.titleBarStyle" = "custom";
+    # "window.titleBarStyle" = "custom";
     "git.enableSmartCommit" = false;
     "git.suggestSmartCommit" = false;
     "git.autofetch" = true;

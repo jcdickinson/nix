@@ -1,7 +1,7 @@
 [Desktop Entry]
 Categories=Utility;TextEditor;Development;IDE;
 Comment=Code Editing. Redefined.
-Exec=codium --enable-features=UseOzonePlatform --ozone-platform=wayland %F
+Exec=codium --enable-features=UseOzonePlatform,WaylandWindowDecorations --ozone-platform=wayland %F
 GenericName=Text Editor
 Icon=code
 MimeType=text/plain;inode/directory;
@@ -15,5 +15,5 @@ Keywords=vscode;
 
 [Desktop Action new-empty-window]
 Name=New Empty Window
-Exec=codium --enable-features=UseOzonePlatform --ozone-platform=wayland --new-window %F
+Exec=codium --enable-features=UseOzonePlatform,WaylandWindowDecorations --ozone-platform=wayland --new-window %F
 Icon=code
