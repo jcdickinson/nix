@@ -42,28 +42,15 @@
   };
 
   "org/gnome/shell" = {
+    disable-user-extensions=false;
     disabled-extensions=["user-theme@gnome-shell-extensions.gcampax.github.com"];
-    enabled-extensions=["appindicatorsupport@rgcjonas.gmail.com" "dash-to-dock@micxgx.gmail.com"];
+    enabled-extensions=["appindicatorsupport@rgcjonas.gmail.com"];
     favorite-apps=["org.gnome.Nautilus.desktop" "firefox.desktop" "org.gnome.Terminal.desktop" "codium.desktop"];
     welcome-dialog-last-shown-version="41.1";
   };
 
   "org/gnome/settings-daemon/plugins/power" = {
     power-button-action="interactive";
-  };
-
-  "org/gnome/shell/extensions/dash-to-dock" = {
-    apply-custom-theme=true;
-    background-opacity=0.80000000000000004;
-    dash-max-icon-size=48;
-    dock-position="BOTTOM";
-    height-fraction=0.90000000000000002;
-    multi-monitor=true;
-    preferred-monitor=0;
-    preview-size-scale=0.0;
-    show-mounts=false;
-    show-show-apps-button=false;
-    show-trash=false;
   };
 
   "org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9" = {

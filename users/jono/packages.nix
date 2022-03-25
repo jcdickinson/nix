@@ -25,4 +25,7 @@
   dhall-json
   dhall-lsp-server
   mono
+  usbutils
+  obs-studio
+  zoom-us
 ]

@@ -112,7 +112,10 @@
   environment.systemPackages = with pkgs; [
     gtk4
     git
+    gnomeExtensions.appindicator
   ];
+
+  services.udev.packages = with pkgs; [ gnome3.gnome-settings-daemon ];
 
   programs.mtr.enable = true;
   programs.gnupg.agent = {
